@@ -33,6 +33,7 @@ public class Ejemplo06 {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
         }
+        
         // en este caso guarda el valor de la funcion para presentarla
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];

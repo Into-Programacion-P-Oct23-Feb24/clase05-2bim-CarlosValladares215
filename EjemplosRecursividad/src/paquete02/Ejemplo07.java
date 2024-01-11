@@ -18,6 +18,10 @@ public class Ejemplo07 {
         // 2 elevado a la potencia 2 (cuadrado)
         // 2 elevado a la potencia 3 (cubo)
         
+        // for(int i = 0;i<valores.length;i++){
+            System.out.printf("%d",obtenerPotencia(valores[2], potencias[2]));
+        // }
+        
     }
 
     public static int obtenerPotencia(int base, int exponente) {
@@ -25,7 +29,6 @@ public class Ejemplo07 {
         if (exponente == 1) {
             return base;
         } else{
-            
             return base * obtenerPotencia(base, exponente - 1);
         }
     }
