@@ -8,8 +8,9 @@ public class Ejemplo07 {
 
     public static void main(String[] args) {
         int[] valores = {2,3,4,5,6,7,8};
-        int[] potencias = {2, 3};\
-        int resultado;
+        int[] potencias = {2, 3};
+        int resultado1;
+        int resultado2;
         // Por cada posición del arreglo valores
         // obtener su potencia, en función de los valores
         // del arreglo potencias
@@ -20,9 +21,11 @@ public class Ejemplo07 {
         // 2 elevado a la potencia 3 (cubo)
         
         for(int i = 0;i<valores.length;i++){
-            resultado = obtenerPotencia(valores[i], potencias[i]));
+            resultado1 = obtenerPotencia(valores[i], potencias[1]);
+            resultado2 = obtenerPotencia(valores[i], potencias[2]);
         }
-        System.out.printf("%s",resultado);
+        System.out.printf("%d",resultado1);
+        System.out.printf("%d",resultado2);
         // Nota: Nose cual podria ser el error
         
     }
